@@ -1,0 +1,319 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #e4e4e4;
+}
+.top-header-midContainer{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+.flag{
+    width: 55px;
+    height: 45px;
+    border-radius : 5px; 
+   
+}
+/* .img-div{
+    margin: 100px, 1000px, 0px,0px;
+} */
+.match-head{
+    font-size: 27px;
+    font-weight: bold;
+}
+.match-time{
+    color: gray;
+    font-size: 15px;
+    text-align: center
+}
+.text-div{
+    margin: 10px 10px 0px 10px;
+    line-height: 2px;
+}
+.noteams-img{
+    width: 100%;
+    height: auto;
+}
+.guide-text{
+    text-align: center;
+}
+.table-heading{
+    display: flex;
+    margin: 30px 30px 10px 30px;
+    justify-content: space-around;
+    color: grey;
+    font-size: 14px;
+}
+.table-head1{
+    width: 50%;
+}
+.table-head2{
+    width: 10%;
+}
+.table-head3{
+    width: 10%;
+}
+.table-head4{
+    width: 10%;
+    
+}
+.table-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px 15px 30px;
+    align-items: center;
+    padding: 7px;
+}
+.playerdiv{
+    display: flex;
+    align-items: center;
+}
+.small-flag{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+}
+.playerNameDiv{
+   
+    margin-left: 12px;
+}
+.player-type{
+    color: grey;
+    font-size: 14px;
+    margin: 2px 0px 0px 0px;
+}
+.playername{
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+.points{
+    font-size: 18px;
+}
+
+.table-content:hover{
+    background-color: #c9c9c9;
+}
+.Main-footer{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 5px 5px 0px 5px;
+    padding-bottom: 10px;
+    border-top: 0.1px solid #e4e4e4;
+    align-items: center;
+    background-color: #ffffff
+}
+.score{
+    margin: 15px 0px 2px 0px;
+    font-size: 22px;
+}
+.score-text{
+    margin: 2px 0px 4px 0px;
+    color: grey;
+    font-size: 18px;
+}
+.footer5{
+    margin-right: 10px;
+}
+.tableData{
+    margin-bottom: 100px;
+}
+.dialogDiv{
+    background-image: url('http://images.pinwallpapers.com/thumb.php?src=http://images.pinwallpapers.com/sports/cricket/cricket-ground-wallpapers/widescreen-cricket-ground-wallpaper-background-1987563.jpg&w=1024&h=576');
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+    
+}
+.dialogDiv1{
+    margin: 330px 0px 0px 0px
+}
+
+.playersviewDiv{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  flex-wrap: wrap;
+}
+.playersviewchild{
+    width: 30%;
+    text-align: center;
+}
+.picdisplayName{
+    background-color: white;
+    font-size: 14px;
+    width: 50%;
+    border-radius: 3px;
+    text-align: center;
+    padding: 2px;
+    margin: 0px auto 0px auto;
+}
+.picdisplayRole{
+    background-color: green;
+    font-size: 12px;
+    width: 40%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 6px auto 24px auto;
+    padding: 1px;
+}
+@media only screen and (max-width: 780px) {
+    .picdisplayName{
+        font-size: 13px;
+        width: 50%;
+        
+        margin: 0px auto 0px auto;
+    }
+    .picdisplayRole{
+        font-size: 11px;
+        width: 40%;
+        margin: 6px auto 24px auto;
+    }
+}
+
+
+/* For big mobile phones: */
+@media only screen and (max-width: 700px) {
+    .flag{
+        width: 45px;
+         height: 35px;
+    }
+    .guide-text{
+        font-size: 14px;
+    }
+    .small-flag{
+        height: 25px;
+        width: 34px;
+    }
+    .table-heading{
+        display: flex;
+        margin: 20px 15px 10px 15px;
+    }
+    .table-content{
+        margin: 0px 13px 12px 15px;
+    }
+    .playername{
+        font-size: 17px;
+    }
+    .player-type{
+        font-size: 13px;
+
+    }
+    .score{
+        font-size: 18px;
+    }
+    .score-text{
+        font-size: 16px;
+    }
+    .tableData{
+        margin-bottom: 90px;
+    }
+    .picdisplayName{
+        font-size: 12px;
+        width: 50%;
+        
+        margin: 0px auto 0px auto;
+    }
+    .picdisplayRole{
+        font-size: 11px;
+        width: 40%;
+        margin: 6px auto 24px auto;
+    }
+}
+
+
+/* For small mobile phones: */
+@media only screen and (max-width: 460px) {
+    .flag{
+        width: 42px;
+         height: 32px;
+    }
+    .match-head{
+        font-size: 20px;
+        
+    }
+    .match-time{
+        color: gray;
+        font-size: 10px;
+     
+    }
+    .text-div{
+        margin: 8px 5px 0px 5px;  
+    }
+    .table-heading{
+        font-size: 10px;
+    }
+    .playername{
+        font-size: 15px;
+    }
+    .player-type{
+        font-size: 12px;
+    }
+    .points{
+        font-size: 15px;
+    }
+    
+    .dialogDiv1{
+        margin: 380px 0px 0px 0px
+    }
+    .playersviewchild{
+        width: 33%;
+        
+    }
+}
+/* For extra small mobile phones: */
+@media only screen and (max-width: 370px) {
+    .flag{
+        width: 40px;
+         height: 30px;
+    }
+    .match-head{
+        font-size: 17px;
+        
+    }
+    .match-time{
+        color: gray;
+        font-size: 7px;
+        
+    }
+    .small-flag{
+        height: 20px;
+        width: 30px;
+    }
+    .playername{
+        font-size: 12px;
+    }
+    .player-type{
+        font-size: 10px;
+    }
+    .points{
+        font-size: 13px;
+    }
+    .score{
+        font-size: 16px;
+    }
+    .score-text{
+        font-size: 14px;
+    }
+    
+    
+    .dialogDiv1{
+        margin: 300px 0px 0px 0px
+    }
+    .playersviewchild{
+        width: 33%;
+        
+    }
+}
